@@ -3,6 +3,12 @@ import UIKit
 
 class NotesViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var imageView1: UIImageView!
+    
+    @IBOutlet weak var imageView2: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
